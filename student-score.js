@@ -31,5 +31,6 @@ function search(name){
 // check failure
 function cheackfailures(){
    return students.some((students)=>students.score<35)
+   document.write("there is a failure")
 
 }
