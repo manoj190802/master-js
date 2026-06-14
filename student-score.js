@@ -38,12 +38,31 @@
 
 
 // Functiomal programming
-const person={
-    name:"john",
-    age:30,
+// const person={
+//     name:"john",
+//     age:30,
     
+// }
+// function getperson(){
+//     console.log(person.name,person.age,person)
+// }
+// getperson()
+
+// arguments
+const person1={
+    name:"Manoj",
+    age:24,
+    place:"Thanjavur"
 }
-function getperson(){
-    console.log(person.name,person.age,person)
+const person2={
+    name:"Mano",
+    age:24,
+    place:"keralam"
 }
-getperson()
+
+function printperson(name,age,place){
+    console.log(name,age,place)
+}
+
+printperson(person1.name,person1.age,person1.place)
+printperson(person2.name,person2.age,person2.place)
