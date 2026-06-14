@@ -49,20 +49,39 @@
 // getperson()
 
 // arguments
+// const person1={
+//     name:"Manoj",
+//     age:24,
+//     place:"Thanjavur"
+// }
+// const person2={
+//     name:"Mano",
+//     age:24,
+//     place:"keralam"
+// }
+
+// function printperson(person1){
+//     console.log(person1.name)
+//         console.log(person1.age)
+//             console.log(person1.place)
+
+
+// }
+
+// printperson(person1)
+
+
+// default parameters
 const person1={
     name:"Manoj",
     age:24,
-    place:"Thanjavur"
-}
-const person2={
-    name:"Mano",
-    age:24,
-    place:"keralam"
-}
+    place:"Thanjavur"               
 
-function printperson(name,age,place){
-    console.log(name,age,place)
 }
+function printperson(name="divya",age=24,place="Thanjavur"){
+    console.log(name)
+    console.log(age)
+        console.log(place)
 
-printperson(person1.name,person1.age,person1.place)
-printperson(person2.name,person2.age,person2.place)
+}
+printperson()
