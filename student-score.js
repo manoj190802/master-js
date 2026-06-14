@@ -72,16 +72,35 @@
 
 
 // default parameters
+// const person1={
+//     name:"Manoj",
+//     age:24,
+//     place:"Thanjavur"               
+
+// }
+// function printperson(name="divya",age=24,place="Thanjavur"){
+//     console.log(name)
+//     console.log(age)
+//         console.log(place)
+
+// }
+// printperson()
+
+
+// spread operator or rest operator
 const person1={
     name:"Manoj",
     age:24,
-    place:"Thanjavur"               
-
+    place:"Thanjavur"       
 }
-function printperson(name="divya",age=24,place="Thanjavur"){
-    console.log(name)
-    console.log(age)
-        console.log(place)
-
+const person2={
+    name:"Mano",
+    age:24,
+    place:"keralam" 
 }
-printperson()
+
+function printpersons(...arg){
+    console.log(arg)
+}
+printpersons(person1.name,person1.age,person1.place)
+printpersons(person2.name,person2.age,person2.place)
