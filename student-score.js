@@ -106,8 +106,16 @@
 // printpersons(person2.name,person2.age,person2.place)
 
 // concatination
+// function getname(firstname,lastname){
+// const name=(firstname+''+lastname)
+// console.log(name)
+// }
+// getname("manoj","thanjai")
+
+// returning function
 function getname(firstname,lastname){
-const name=(firstname+''+lastname)
-console.log(name)
+    return {firstname,lastname}
+
 }
-getname("manoj","thanjai")
+let fullname=getname("manoj","thanjai")
+console.log(fullname)
