@@ -113,9 +113,15 @@
 // getname("manoj","thanjai")
 
 // returning function
-function getname(firstname,lastname){
-    return {firstname,lastname}
+// function getname(firstname,lastname){
+//     return {firstname,lastname}
 
-}
-let fullname=getname("manoj","thanjai")
+// }
+// let fullname=getname("manoj","thanjai")
+// console.log(fullname)
+
+// arrow function
+const getname =(firstname,lastname) => firstname+''+lastname
+
+let fullname=getname("manoj","Thanjavur")
 console.log(fullname)
