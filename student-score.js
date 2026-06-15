@@ -88,19 +88,26 @@
 
 
 // spread operator or rest operator
-const person1={
-    name:"Manoj",
-    age:24,
-    place:"Thanjavur"       
-}
-const person2={
-    name:"Mano",
-    age:24,
-    place:"keralam" 
-}
+// const person1={
+//     name:"Manoj",
+//     age:24,
+//     place:"Thanjavur"       
+// }
+// const person2={
+//     name:"Mano",
+//     age:24,
+//     place:"keralam" 
+// }
 
-function printpersons(...arg){
-    console.log(arg)
+// function printpersons(...arg){
+//     console.log(arg)
+// }
+// printpersons(person1.name,person1.age,person1.place)
+// printpersons(person2.name,person2.age,person2.place)
+
+// concatination
+function getname(firstname,lastname){
+const name=(firstname+''+lastname)
+console.log(name)
 }
-printpersons(person1.name,person1.age,person1.place)
-printpersons(person2.name,person2.age,person2.place)
+getname("manoj","thanjai")
