@@ -121,7 +121,17 @@
 // console.log(fullname)
 
 // arrow function
-const getname =(firstname,lastname) => firstname+''+lastname
+// const getname =(firstname,lastname) => firstname+''+lastname
 
-let fullname=getname("manoj","Thanjavur")
-console.log(fullname)
+// let fullname=getname("manoj","Thanjavur")
+// console.log(fullname)
+
+// scope
+const name="manoj from Thanjavur"
+function getname(){
+    const name="manoj from kerala"
+    console.log(name)
+
+}
+getname()
+console.log(name)
