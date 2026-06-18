@@ -142,6 +142,19 @@
 // console.log(name)
 
 // callback function
-setTimeout(()=>{
-    console.log("hii")
-},3000)
+// setTimeout(()=>{
+//     console.log("hii")
+// },3000)
+
+// setTimeout(()=>{
+//     console.log("heloooo")
+// },9000)
+
+function welcome(name, callback){
+    console.log("welcome"+name)
+    callback()
+}
+function sayhii(hello){
+    console.log("goodbye")
+}
+welcome("manoj",sayhii)
