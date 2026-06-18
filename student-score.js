@@ -127,11 +127,21 @@
 // console.log(fullname)
 
 // scope
-const name="manoj from Thanjavur"
-function getname(){
-    const name="manoj from kerala"
-    console.log(name)
+// const name="manoj from Thanjavur"
+// function getname(){
+//     const name="manoj from kerala"
+//     console.log(name)
+//     // block scope
+//     if(true){
+//         let name="manoj from mudachikkadu"
+//         console.log(name)
+//     }
 
-}
-getname()
-console.log(name)
+// }
+// getname()
+// console.log(name)
+
+// callback function
+setTimeout(()=>{
+    console.log("hii")
+},3000)
