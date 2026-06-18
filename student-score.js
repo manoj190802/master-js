@@ -150,11 +150,25 @@
 //     console.log("heloooo")
 // },9000)
 
-function welcome(name, callback){
-    console.log("welcome"+name)
+// function welcome(name, callback){
+//     console.log("welcome"+name)
+//     callback()
+// }
+// function sayhii(hello){
+//     console.log("goodbye")
+// }
+// welcome("manoj",sayhii)
+
+function addstudent(name,callback){
+    setTimeout(()=>{
+        console.log("Name is "+name)
+    },2000)
     callback()
 }
-function sayhii(hello){
-    console.log("goodbye")
+function getscore(){
+    setTimeout(()=>{
+        console.log("score is 490")
+
+    },3000)
 }
-welcome("manoj",sayhii)
+addstudent("manoj",getscore)
