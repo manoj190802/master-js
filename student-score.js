@@ -159,16 +159,22 @@
 // }
 // welcome("manoj",sayhii)
 
-function addstudent(name,callback){
-    setTimeout(()=>{
-        console.log("Name is "+name)
-    },2000)
-    callback()
-}
-function getscore(){
-    setTimeout(()=>{
-        console.log("score is 490")
+// function addstudent(name,callback){
+//     setTimeout(()=>{
+//         console.log("Name is "+name)
+//     },2000)
+//     callback()
+// }
+// function getscore(){
+//     setTimeout(()=>{
+//         console.log("score is 490")
 
-    },3000)
-}
-addstudent("manoj",getscore)
+//     },3000)
+// }
+// addstudent("manoj",getscore)
+
+
+// array methods
+let colors=["red","green","yellow"]
+    colors[1]="blue"
+console.log(colors)
