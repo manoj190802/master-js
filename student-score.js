@@ -210,6 +210,8 @@
 
 // forEach is used to iterate over the array
 let numbers=[1,2,3,4,5,6,7,8,9]
-numbers.forEach(function(elements){
-    console.log(elements+3)
+let total=0
+numbers.forEach(function(element){
+    total+=element
 })
+console.log(total)
