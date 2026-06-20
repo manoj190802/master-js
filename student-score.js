@@ -217,9 +217,20 @@
 // console.log(total)
 
 // forMap is used to create a new array by applying a function to each element of the array
-let products=["laptop","mobile","computer"]
-let newproducts=products.map((elements)=>{
-     return elements+' electronics'
-    })
+// let products=["laptop","mobile","computer"]
+// let newproducts=products.map((elements)=>{
+//      return elements+' electronics'
+//     })
+    // forEach is used to iterate over the array
 
-console.log(newproducts)
+    // newproducts.forEach((elements)=>{
+    // console.log(elements)
+    // })
+// //////////////////////////////////////////////////////////////////////////////////////////
+    let prices=[1000,2000,3000,4000,5000]
+    let discounted=50
+   let newPrices=prices.map((prices)=>{
+        return prices-discounted
+    })
+    console.log(newPrices)
+    // ////////////////////////////////////////////////////////////////////////////////////
