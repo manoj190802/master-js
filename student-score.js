@@ -180,9 +180,13 @@
 // console.log(colors)
 
 // length
-let colors=["red","yellow","green","black"]
+let colors=["red","yellow","green","black","pink"]
 console.log(colors.length)
 
-if(colors.length >2){
-    console.log("colors are 9")
+if(colors.length >9){
+    console.log("colors are 5")
+
+}
+else{
+    console.log("colors are less than 5")
 }
