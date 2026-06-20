@@ -175,6 +175,14 @@
 
 
 // array methods
-let colors=["red","green","yellow"]
-    colors[1]="blue"
-console.log(colors)
+// let colors=["red","green","yellow"]
+//     colors[1]="blue"
+// console.log(colors)
+
+// length
+let colors=["red","yellow","green","black"]
+console.log(colors.length)
+
+if(colors.length >2){
+    console.log("colors are 9")
+}
