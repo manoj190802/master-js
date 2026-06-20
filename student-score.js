@@ -209,9 +209,17 @@
 // console.log(colors.indexOf("yellow"))
 
 // forEach is used to iterate over the array
-let numbers=[1,2,3,4,5,6,7,8,9]
-let total=0
-numbers.forEach(function(element){
-    total+=element
-})
-console.log(total)
+// let numbers=[1,2,3,4,5,6,7,8,9]
+// let total=0
+// numbers.forEach(function(element){
+//     total+=element
+// })
+// console.log(total)
+
+// forMap is used to create a new array by applying a function to each element of the array
+let products=["laptop","mobile","computer"]
+let newproducts=products.map((elements)=>{
+     return elements+' electronics'
+    })
+
+console.log(newproducts)
