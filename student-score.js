@@ -180,13 +180,30 @@
 // console.log(colors)
 
 // length
-let colors=["red","yellow","green","black","pink"]
-console.log(colors.length)
+// let colors=["red","yellow","green","black","pink"]
+// console.log(colors.length)
 
-if(colors.length >9){
-    console.log("colors are 5")
+// if(colors.length >9){
+//     console.log("colors are 5")
 
-}
-else{
-    console.log("colors are less than 5")
-}
+// }
+// else{
+//     console.log("colors are less than 5")
+// }
+
+
+// push
+// const colors=["red","yellow","green"]
+// colors.push("blue")
+// console.log(colors)
+
+// pop  is used to remove the last element from the array
+// colors.pop()
+// console.log(colors)
+
+// shift is used to remove an element at the beginning of the array
+// colors.shift()
+// console.log(colors)
+
+// indexof is used to find the index of an element in the array
+// console.log(colors.indexOf("yellow"))
