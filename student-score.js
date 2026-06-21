@@ -243,27 +243,27 @@
 // })
 // console.log(greaterthan5)
 // ///////////////////////////////////////////////////////////////////////////////////////////
-let studentsMarks=[
-   {name:"Manoj",class:"10th",totalmarks:490},
-    {name:"sullan",class:"10th",totalmarks:210},
-    {name:"sarapanbu",class:"10th",totalmarks:200},
-    {name:"maadu ravi",class:"10th",totalmarks:220},
-    {name:"kolamavu kogila",class:"10th",totalmarks:390}]
-let failStudents=studentsMarks.filter((studentsMarks)=>{
-    return studentsMarks.totalmarks<250
-})
-let passStudents=studentsMarks.filter((studentsMarks)=>{
-    return studentsMarks.totalmarks>250
-})
-failStudents.forEach((studentsMarks)=>{
-    console.log(studentsMarks.name,studentsMarks.class,studentsMarks.totalmarks)
-})
-console.log("Total Fail Students are "+failStudents.length)
-passStudents.forEach((studentsMarks)=>{
-    console.log(studentsMarks.name,studentsMarks.class,studentsMarks.totalmarks)
-})
+// let studentsMarks=[
+//    {name:"Manoj",class:"10th",totalmarks:490},
+//     {name:"sullan",class:"10th",totalmarks:210},
+//     {name:"sarapanbu",class:"10th",totalmarks:200},
+//     {name:"maadu ravi",class:"10th",totalmarks:220},
+//     {name:"kolamavu kogila",class:"10th",totalmarks:390}]
+// let failStudents=studentsMarks.filter((studentsMarks)=>{
+//     return studentsMarks.totalmarks<250
+// })
+// let passStudents=studentsMarks.filter((studentsMarks)=>{
+//     return studentsMarks.totalmarks>250
+// })
+// failStudents.forEach((studentsMarks)=>{
+//     console.log(studentsMarks.name,studentsMarks.class,studentsMarks.totalmarks)
+// })
+// console.log("Total Fail Students are "+failStudents.length)
+// passStudents.forEach((studentsMarks)=>{
+//     console.log(studentsMarks.name,studentsMarks.class,studentsMarks.totalmarks)
+// })
 
-console.log("Total Pass Students are "+passStudents.length)
+// console.log("Total Pass Students are "+passStudents.length)
 
 
 
