@@ -233,12 +233,39 @@
 //         return prices-discounted
 //     })
 //     console.log(newPrices)
-    // ////////////////////////////////////////////////////////////////////////////////////
+
 
 
 // filter is used to create a new array with all elements that pass the test implemented by the provided function
-let numbers=[1,2,3,4,5,6,7,8,9]
-let greaterthan5=numbers.filter((numbers)=>{
-    return numbers>5
+// let numbers=[1,2,3,4,5,6,7,8,9]
+// let greaterthan5=numbers.filter((numbers)=>{
+//     return numbers>5
+// })
+// console.log(greaterthan5)
+// ///////////////////////////////////////////////////////////////////////////////////////////
+let studentsMarks=[
+   {name:"Manoj",class:"10th",totalmarks:490},
+    {name:"sullan",class:"10th",totalmarks:210},
+    {name:"sarapanbu",class:"10th",totalmarks:200},
+    {name:"maadu ravi",class:"10th",totalmarks:220},
+    {name:"kolamavu kogila",class:"10th",totalmarks:390}]
+let failStudents=studentsMarks.filter((studentsMarks)=>{
+    return studentsMarks.totalmarks<250
 })
-console.log(greaterthan5)
+let passStudents=studentsMarks.filter((studentsMarks)=>{
+    return studentsMarks.totalmarks>250
+})
+failStudents.forEach((studentsMarks)=>{
+    console.log(studentsMarks.name,studentsMarks.class,studentsMarks.totalmarks)
+})
+console.log("Total Fail Students are "+failStudents.length)
+passStudents.forEach((studentsMarks)=>{
+    console.log(studentsMarks.name,studentsMarks.class,studentsMarks.totalmarks)
+})
+
+console.log("Total Pass Students are "+passStudents.length)
+
+
+
+
+
