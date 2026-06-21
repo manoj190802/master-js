@@ -275,5 +275,11 @@
 // console.log(findnum)
 
 
+// somemethod na oru value kku mela iruntha true illana false varum
+// let numbers=[1,2,3,4,5,67,89,990,789]
+// let value=numbers.some((numbers)=>{
+//     return numbers>5
+// })
 
+// console.log(value)
 
