@@ -282,9 +282,9 @@
 // })
 
 // console.log(value)
-let numbers=[1,2,3,4,5]
-let value=numbers.some((numbers)=>{
-    return numbers>5
-})
+// let numbers=[1,2,3,4,5]
+// let value=numbers.some((numbers)=>{
+//     return numbers>5
+// })
 
-console.log(value)
+// console.log(value)
