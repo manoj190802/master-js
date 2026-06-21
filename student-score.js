@@ -268,11 +268,11 @@
 
 // find is used to find the first element in the array that satisfies the provided testing function
 // oru element mattum find pannum
-let numbers=[1,2,3,4,5,6,7,8,9]
-let findnum=numbers.find((numbers)=>{
-    return numbers>7
-})
-console.log(findnum)
+// let numbers=[1,2,3,4,5,6,7,8,9]
+// let findnum=numbers.find((numbers)=>{
+//     return numbers>7
+// })
+// console.log(findnum)
 
 
 
