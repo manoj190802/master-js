@@ -227,10 +227,18 @@
     // console.log(elements)
     // })
 // //////////////////////////////////////////////////////////////////////////////////////////
-    let prices=[1000,2000,3000,4000,5000]
-    let discounted=50
-   let newPrices=prices.map((prices)=>{
-        return prices-discounted
-    })
-    console.log(newPrices)
+//     let prices=[1000,2000,3000,4000,5000]
+//     let discounted=50
+//    let newPrices=prices.map((prices)=>{
+//         return prices-discounted
+//     })
+//     console.log(newPrices)
     // ////////////////////////////////////////////////////////////////////////////////////
+
+
+// filter is used to create a new array with all elements that pass the test implemented by the provided function
+let numbers=[1,2,3,4,5,6,7,8,9]
+let greaterthan5=numbers.filter((numbers)=>{
+    return numbers>5
+})
+console.log(greaterthan5)
