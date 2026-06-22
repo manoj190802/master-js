@@ -299,6 +299,11 @@ console.log(add)*/
 
 
 // flat method is an array is nested to flate
-let arr=[1,2,[3,4,[5,6,7]]]
+/*let arr=[1,2,[3,4,[5,6,7]]]
 let print=arr.flat(2)
-console.log(print)
+console.log(print)*/
+
+// flatMap is split the words
+let words=["hii","Iam manoj","As a fresher intresd to frontend developer"]
+let splitwords=words.flatMap(words=>words.split(" "))
+console.log(splitwords)
