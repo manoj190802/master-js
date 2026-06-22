@@ -290,9 +290,15 @@
 // console.log(value)
 
 
-// reduce method is add total acculumatric value
-let numbers=[1,2,3,4,]
+// reduce method na array la ulla ella value uh single vale ah tharum (accumuator,currentvalue,initialvalue)
+/*let numbers=[1,2,3,4,]
 let add=numbers.reduce((acc,current)=>{
     return acc+current
 })
-console.log(add)
+console.log(add)*/
+
+
+// flat method is an array is nested to flate
+let arr=[1,2,[3,4,[5,6,7]]]
+let print=arr.flat(2)
+console.log(print)
