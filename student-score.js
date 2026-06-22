@@ -288,3 +288,11 @@
 // })
 
 // console.log(value)
+
+
+// reduce method is add total acculumatric value
+let numbers=[1,2,3,4,]
+let add=numbers.reduce((acc,current)=>{
+    return acc+current
+})
+console.log(add)
