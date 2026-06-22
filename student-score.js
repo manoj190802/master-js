@@ -304,10 +304,12 @@ let print=arr.flat(2)
 console.log(print)*/
 
 // flatMap is split the words
-let words=["hii","Iam manoj","As a fresher intresd to frontend developer"]
+/*let words=["hii","Iam manoj","As a fresher intresd to frontend developer"]
 let splitwords=words.flatMap(words=>words.split(" "))
 
 console.log(splitwords)
 // single single letters are spilted
 let splitletters=words.flatMap(words=>words.split(""))
-console.log(splitletters)
+console.log(splitletters)*/
+
+
